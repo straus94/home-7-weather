@@ -1,0 +1,206 @@
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+.clear {
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+}
+* {
+    transition: all .1s ease-in;
+}
+.weather-block {
+    /* background-color: #2793CC; */
+    padding: 1px 200px;
+    background-color: rgba(39, 147, 203, .4);
+
+}
+.weather-block .list {
+    font-size: 0;
+    list-style: none;
+    margin: 100px auto;
+}
+
+
+.weather-block .list li {
+    display: inline-block;
+    border: 2px solid white;
+    box-sizing: border-box;
+    padding: 30px 0;
+    text-align: center;
+}
+.weather-block .list li .place,
+.weather-block .list li .weather {
+    font-size: 18px;    
+    color: white;
+}
+
+/* .weather-block .list li .weather {
+    opacity: .7;
+} */
+.weather-block .list li .weather i {
+    font-size: 23px;
+}
+
+/* for lisbon */
+.weather-block .list:hover .lisbon {
+    background: rgba(39, 147, 203, .5);
+}
+
+.weather-block .list li:nth-child(1),
+.weather-block .list li:nth-child(1):hover {
+    background: rgba(39, 147, 203, 1);
+    width: 50%;
+}
+/* .weather-block .list li:nth-child(1):hover {
+    background: rgba(39, 147, 203, 1);
+} */
+
+/* for paris */
+.weather-block .list:hover .paris {
+    background: rgba(39, 188, 198, .5);
+}
+
+.weather-block .list li:nth-child(2),
+.weather-block .list li:nth-child(2):hover {
+    background: rgba(39, 188, 198, 1);
+    width: 25%;
+}
+
+/* for belgrade */
+.weather-block .list:hover .belgrade {
+    background: rgba(154, 110, 151, .5);
+}
+.weather-block .list li:nth-child(3),
+.weather-block .list li:nth-child(3):hover {
+    background: rgba(154, 110, 151, 1);
+    width: 25%;
+}
+
+/* for kyiv */
+.weather-block .list:hover .kyiv {
+    background: rgba(199, 84, 66, .5);
+}
+.weather-block .list li:nth-child(4),
+.weather-block .list li:nth-child(4):hover {
+    background: rgba(199, 84, 66, 1);
+    width: 25%;
+}
+
+/* for tel aviv  */
+.weather-block .list:hover .tel-aviv {
+    background: rgba(231, 114, 66, .5);
+}
+.weather-block .list li:nth-child(5),
+.weather-block .list li:nth-child(5):hover {
+    background: rgba(231, 114, 66, 1);
+    width: 25%;
+}
+
+/* for cair */
+.weather-block .list:hover .cair {
+    background: rgba(255, 202, 95, .5);
+}
+.weather-block .list li:nth-child(6),
+.weather-block .list li:nth-child(6):hover {
+    background: rgba(255, 202, 95, 1);
+    width: 25%;
+}
+
+/* for new york */
+.weather-block .list:hover .new-york {
+    background: rgba(147, 195, 149, .5);
+}
+.weather-block .list li:nth-child(7),
+.weather-block .list li:nth-child(7):hover {
+    background: rgba(147, 195, 149, 1);
+    width: 25%;
+}
+
+/* for new delhi */
+.weather-block .list:hover .new-delhi {
+    background: rgba(96, 146, 148, .5);
+}
+.weather-block .list li:nth-child(8),
+.weather-block .list li:nth-child(8):hover {
+    background: rgba(96, 146, 148, 1);
+    width: 25%;
+}
+
+/* for san francisko */
+.weather-block .list:hover .san-francisko {
+    background: rgba(209, 113, 148, .5);
+}
+.weather-block .list li:nth-child(9),
+.weather-block .list li:nth-child(9):hover {
+    background: rgba(209, 113, 148, 1);
+    width: 50%;
+}
+
+/* for tokyo */
+.weather-block .list:hover .tokyo {
+    background: rgba(40, 141, 101, .5);
+}
+.weather-block .list li:nth-child(10)
+,.weather-block .list li:nth-child(10):hover {
+    background: rgba(40, 141, 101, 1);
+    width: 25%;
+}
+
+/* for sidney */
+
+.weather-block .list:hover .sidney {
+    background: rgba(99, 105, 153, .5);
+}
+.weather-block .list li:nth-child(11),
+.weather-block .list li:nth-child(11):hover {
+    background: rgba(99, 105, 153, 1);
+    width: 100%;
+}
